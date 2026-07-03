@@ -92,12 +92,5 @@ nc localhost 6556
 
 - check-mk-agent.socket is a systemd socket-activated service — always enable via systemctl
 
-# **Screenshots**
 
-***Figure 1: CheckMK web UI — Setup ******>****** Hosts showing Dev and Prod folder structure***
-
-***Figure 2: CheckMK host addition and agent connection***
-
-***Figure 3: CheckMK agent socket status and port 6556 listener verification***
-
-Ticket #60 | Add Servers to CheckMK Monitoring | Procore Linux Jira  |  Page  of
+Ticket #60 | Add Servers to CheckMK Monitoring | Procore Linux Jira  | 
