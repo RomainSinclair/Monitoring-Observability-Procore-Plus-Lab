@@ -94,12 +94,5 @@ curl -I http://localhost
 
 - NFS server needs proper privileges to start — use sudo or root context
 
-# **Screenshots**
 
-***Figure 1: stage-web — Installing httpd via dnf and confirming service status***
-
-***Figure 2: stage-web — Git operations related to web server file restoration***
-
-***Figure 3: stage-web — Service status after restoration***
-
-Ticket #61 | Fix the Issue on Your Web Server (via CheckMK) | Procore Linux Jira  |  Page  of
+Ticket #61 | Fix the Issue on Your Web Server (via CheckMK) | Procore Linux Jira  | 
