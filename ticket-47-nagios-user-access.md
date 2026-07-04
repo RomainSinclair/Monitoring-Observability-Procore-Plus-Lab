@@ -26,7 +26,7 @@ Create an HTTP user for the Nagios web interface using the IPA username and auth
 
 # **Environment Details**
 
-- VM: stage-nagios (IP: 10.1.10.37)
+- VM: stage-nagios (IP: 10.1.x.x)
 
 - Service: Nagios Core
 
@@ -36,7 +36,7 @@ Create an HTTP user for the Nagios web interface using the IPA username and auth
 
 Step 1 — SSH into the Nagios server:
 
-ssh ipauser@10.1.10.37
+ssh ipauser@10.1.x.x
 
 Step 2 — Create/update the web user password in htpasswd.users:
 
@@ -64,7 +64,7 @@ Final resolution required a Nagios service restart to pick up both the new htpas
 
 sudo systemctl status nagios
 
-- Browser validation: http://10.1.10.37/nagios/
+- Browser validation: http://10.1.x.x/nagios/
 
 - Login with the new credentials and confirm full dashboard access
 
@@ -76,12 +76,5 @@ sudo systemctl status nagios
 
 - The authorized_for_* directives in cgi.cfg are comma-separated — append the username carefully
 
-# **Screenshots**
-
-***Figure 1: SSH into stage-nagios and running htpasswd to create Nagios web user***
-
-***Figure 2: Nagios cgi.cfg authorization configuration***
-
-***Figure 3: Nagios service restart and status verification***
 
 Ticket #47 | Create NAGIOS User and Configure Access | Procore Linux Jira  |  Page  of
