@@ -90,12 +90,4 @@ sudo systemctl status nagios
 
 - Nagios restart is required (not reload) when adding new cfg_file entries to nagios.cfg
 
-# **Screenshots**
-
-***Figure 1: Nagios host config file (dev-app-kr.cfg) sample template structure***
-
-***Figure 2: Nagios configuration pre-flight validation output***
-
-***Figure 3: Nagios service restart (reload not supported — restart required)***
-
 Ticket #48 | Add Servers to Nagios Monitoring | Procore Linux Jira  |  Page  of
