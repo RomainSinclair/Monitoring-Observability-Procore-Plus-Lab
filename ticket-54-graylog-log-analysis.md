@@ -78,10 +78,5 @@ After reinstallation, a fresh search in Graylog returned the exact install times
 
 - Always document with screenshots for Graylog tickets — the timestamp is the deliverable
 
-# **Screenshots**
-
-***Figure 1: Apache/httpd install on stage-web — shows DNF package installation log pattern for Graylog context***
-
-***Figure 2: Monitoring services log — Graylog-related terminal output***
 
 Ticket #54 | Provide Log Information from Graylog | Procore Linux Jira  |  Page  of
