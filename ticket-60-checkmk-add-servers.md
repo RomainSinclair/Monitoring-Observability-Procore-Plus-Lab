@@ -18,7 +18,7 @@ Install the CheckMK agent on dev-app and stage-web, open the required firewall p
 
 - VMs: dev-app, stage-web
 
-- Install CheckMK agent from the CheckMK server at 10.1.30.37
+- Install CheckMK agent from the CheckMK server at 10.1.x.x
 
 - Open firewall port 6556/tcp on each client
 
@@ -30,7 +30,7 @@ Install the CheckMK agent on dev-app and stage-web, open the required firewall p
 
 - Clients: dev-app, stage-web
 
-- Server: CheckMK at 10.1.30.37 (site: procore)
+- Server: CheckMK at 10.1.x.x (site: procore)
 
 - Port: 6556/tcp (CheckMK agent listener)
 
